@@ -5,13 +5,16 @@ labels:
 input:
   kubearmor-image:
     description: 'kubearmor image to be installed'
-    default: ""
+#    default: ""
+#    required: false
   discovery-engine-image:
     description: 'discovery engine image to be installed'
-    default: ""
+#    default: ""
+#    required: false
   workload-namespace:
     description: 'workload namespaces'
-    default: ""
+#    default: ""
+#    required: false
 execution:
   - git clone https://github.com/rajaSahil/accuknox-cli.git
   - cd accuknox-cli
